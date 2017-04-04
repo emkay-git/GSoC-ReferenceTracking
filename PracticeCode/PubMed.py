@@ -37,7 +37,7 @@ class PubMed:
 			jsonData["papers"].append(data)
 			data={}
 		
-		with open('data.json','wa') as f:
+		with open('data.json','w') as f:
 			json.dump(jsonData,f)
 
 	
