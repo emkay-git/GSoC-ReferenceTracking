@@ -28,7 +28,7 @@ class Scholar:
 			jsonData["papers"].append(data)
 			data={}
 		# data = json.dumps(jsonData)
-		with open('data.json','wa') as f:
+		with open('data2.json','wa') as f:
 			json.dump(jsonData,f)
 
 

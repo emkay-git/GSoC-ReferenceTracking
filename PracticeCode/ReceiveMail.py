@@ -47,5 +47,5 @@ receiveMail = ReceiveMail()
 
 username="emkayatiitr@gmail.com"
 
-mailBox=receiveMail.login(username,"mohitemkay6043","ResearchPaper")
+mailBox=receiveMail.login(username,password,"ResearchPaper")
 # receiveMail.getMailList(mailBox,"ResearchPaper")
